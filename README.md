@@ -1,5 +1,7 @@
-Sistema de Gestión de Asignación de Entradas (Lollapalooza)
-Este proyecto es una aplicación de consola desarrollada en Lenguaje C diseñada para gestionar el proceso de asignación de entradas para un evento masivo, utilizando estructuras de datos dinámicas y persistencia en archivos de texto.1
+#Sistema de Gestión de Asignación de Entradas
+
+Este proyecto es una aplicación de consola desarrollada en Lenguaje C diseñada para gestionar el proceso de asignación de entradas para un evento masivo, utilizando estructuras de datos dinámicas y persistencia en archivos de texto.
+
 🚀 Funcionalidades
 El sistema automatiza la lectura de solicitudes, consolida datos por usuario y aplica reglas de negocio para la distribución de tickets:
 Gestión Dinámica de Datos: Implementa una lista enlazada simple para almacenar y manipular la información de los clientes (RUT, nombre y cantidad de entradas) en tiempo real.1
@@ -16,15 +18,12 @@ insertarFinal: Controla la inserción en la lista y la lógica de suma de entrad
 analizarArchivo: Sistema de validación para asegurar que los archivos de entrada existan y sean legibles.1
 eliminar: El motor principal que clasifica a los clientes en la lista de asignados o de espera según las reglas establecidas.1
 📋 Requisitos de los Datos de Entrada
-El programa espera un archivo .txt con el siguiente formato por línea:
+El programa espera un archivo .txt con el siguiente formato por línea:12
 
-RUT,Nombre Completo,Cantidad_Entradas
-
-Ejemplo:
+RUT,Nombre Completo,Cantidad_EntradasEjemplo:
 12333444-2,Maria Reyes,2
 20165233-4,Rocio Morales,2
 ⚙️ Ejecución
 Compila el archivo utilizando un compilador de C (como GCC):
 gcc Reyes_Gonzalez_Francisco.c -o asignador
 Ejecuta el programa e ingresa el nombre de tu archivo de datos (ej. datos1.txt) cuando se te solicite.1
-Nota: Este proyecto fue desarrollado con un enfoque en la eficiencia del manejo de memoria y la robustez en la manipulación de archivos de texto.
