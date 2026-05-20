@@ -1,4 +1,5 @@
 # Sistema de Gestión de Asignación de Entradas
+### Creado en el año 2024
 
 Este proyecto es una aplicación de consola desarrollada en Lenguaje C diseñada para gestionar el proceso de asignación de entradas para un evento masivo, utilizando estructuras de datos dinámicas y persistencia en archivos de texto.
 
